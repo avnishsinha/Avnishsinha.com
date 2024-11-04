@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avnish Sinha</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set background and center content */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #2e2e2e; /* Grey background */
+            color: #ffffff; /* White text color */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Main animated text */
+        .animated-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Space between text and emoji */
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        /* Subtext with lightning emoji */
+        .subtext {
+            font-size: 1.2em;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.8;
+            animation: fadeInBounce 2s ease-in-out infinite;
+        }
+
+        /* Keyframe animations */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes fadeInBounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-text">Avnish owns this shii 💰</div>
+    <div class="subtext">Launching soon! ⚡</div>
+</body>
+</html>
