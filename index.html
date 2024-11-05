@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avnish Sinha</title>
+    <title>Avnish Sinha - Under Construction</title>
     <style>
         /* Basic reset */
         * {
@@ -14,59 +14,65 @@
 
         /* Set background and center content */
         body {
+            font: 400 1em/1.5 "Neuton", serif;
+            background: #090d00;
+            color: rgba(255, 255, 255, 0.25);
+            text-align: center;
+            margin: 0;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            background-color: #2e2e2e; /* Grey background */
-            color: #ffffff; /* White text color */
-            font-family: 'Arial', sans-serif;
+            height: 100vh;
         }
 
-        /* Main animated text */
-        .animated-text {
-            font-size: 2.5em;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 10px; /* Space between text and emoji */
-            animation: bounce 2s ease-in-out infinite;
+        /* Main container styling */
+        p {
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            display: inline-block;
+            border: 4px double rgba(255, 255, 255, 0.25);
+            border-width: 4px 0;
+            padding: 1.5em 0;
+            width: 40em;
+            max-width: 90%;
+            margin: 0 auto;
         }
 
-        /* Subtext with lightning emoji */
-        .subtext {
-            font-size: 1.2em;
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            opacity: 0.8;
-            animation: fadeInBounce 2s ease-in-out infinite;
+        /* Animated text style */
+        p span {
+            font: 700 4em/1 "Oswald", sans-serif;
+            letter-spacing: 0;
+            padding: .25em 0 .325em;
+            display: block;
+            margin: 0 auto;
+            text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+            /* Clip Background Image */
+            background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            /* Animate Background Image */
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: aitf 80s linear infinite;
+
+            /* Activate hardware acceleration for smoother animations */
+            -webkit-transform: translate3d(0, 0, 0);
+            -webkit-backface-visibility: hidden;
         }
 
-        /* Keyframe animations */
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-        }
-
-        @keyframes fadeInBounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-5px);
-            }
+        /* Animate Background Image */
+        @-webkit-keyframes aitf {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
         }
     </style>
 </head>
 <body>
-    <div class="animated-text">Avnish owns this shii 💰</div>
-    <div class="subtext">Launching soon! ⚡</div>
+    <p>
+        The website is under construction
+        <span>Avnish owns this shii ⚡</span>
+        &mdash; Launching Soon! ⚡ &mdash;
+    </p>
 </body>
 </html>
