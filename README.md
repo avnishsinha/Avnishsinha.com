@@ -31,5 +31,5 @@ Check out the live version of the Website here: [Avnish.prints](https://www.avni
 ## Contact Us
 
 Have questions or want to collaborate? Reach out to us:
-- Email: support@avnishsinha.com
+- Email: aks526@nau.edu
 - Instagram: [@AvnishPrints](https://instagram.com/AvnishPrints)
