@@ -19,7 +19,7 @@ Follow us on Instagram for the latest updates, sneak peeks, and behind-the-scene
 
 ## How to Stay Updated
 
-1. Follow us on Instagram: [@AvnishPrints](https://instagram.com/AvnishPrints).
+1. Follow us on Instagram: [@AvnishPrints](https://www.instagram.com/avnish.prints/).
 2. Sign up for our newsletter on our website to receive launch updates and exclusive offers.
 
 ## 🌐 Live Demo
