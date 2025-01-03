@@ -1,6 +1,6 @@
 # Avnish Prints
 
-Avnish Prints is your go-to destination for premium on-demand printing of hoodies and canvas prints. Featuring stunning visuals of cars, automotive photography, portraits, landscapes, and street photography, we transform your favorite images into wearable art and captivating wall decor.
+New Year! New ventures! Avnish Prints is your go-to destination for premium on-demand printing of exclusive hoodies and canvas prints. Featuring stunning visuals of cars, automotive photography, portraits, landscapes, and street photography, I transform your favorite images into wearable art and captivating wall decor. 
 
 ## Overview
 
