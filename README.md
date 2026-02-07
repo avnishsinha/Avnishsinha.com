@@ -1,238 +1,141 @@
-# Avnish Sinha - Solo Developer Studio
+# Avnish Sinha - Website in 7 Days
 
-A high-conversion landing page for a "Website-in-a-Week" service targeting small Indian businesses and startups.
+A high-conversion landing page for a professional website development service targeting Indian businesses and startups.
 
-## 🚀 Tech Stack
+## 🚀 Overview
 
-- **Framework**: Next.js 14 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Deployment**: Vercel
-- **Fonts**: Google Fonts (Inter, Oswald)
+Modern, brutalist-style landing page built with vanilla HTML, Tailwind CSS, and custom styling. Designed to convert visitors into clients for a "Website in 7 Days" service.
 
-## 📁 Project Structure
+## ✨ Features
 
-```
-avnishsinha.com/
-├── app/
-│   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx             # Main page with all sections
-│   └── globals.css          # Global styles
-├── components/
-│   ├── EntryGate.tsx        # Entry gate animation
-│   ├── Hero.tsx             # Hero section with CTAs
-│   ├── WhatYouGet.tsx       # Package features
-│   ├── WhoItsFor.tsx        # Target audience
-│   ├── HowItWorks.tsx       # Process steps
-│   ├── AddOns.tsx           # Optional services
-│   ├── SampleWork.tsx       # Portfolio samples
-│   ├── FAQ.tsx              # Frequently asked questions
-│   ├── FinalCTA.tsx         # Final call-to-action
-│   └── WhatsAppButton.tsx   # Sticky WhatsApp button
-├── public/                  # Static assets
-├── package.json
-├── tsconfig.json
-├── tailwind.config.ts
-└── next.config.js
-```
+- **Modern Brutalist Design** - Bold, clean aesthetic with red accent color
+- **Mobile-Responsive** - Optimized for all device sizes
+- **Fast Loading** - Pure HTML/CSS with CDN resources
+- **SEO-Ready** - Proper meta tags and semantic HTML
+- **Call-to-Actions** - Multiple conversion points throughout the page
 
-## 🎨 Design Features
+## 🎯 Target Audience
 
-- **Dark theme** with accent color (#00ff88 - customizable)
-- **Mobile-first** responsive design
-- **Premium, minimal** aesthetic
-- **Entry gate** with smooth animation
-- **Sticky WhatsApp button** on scroll
-- Clean typography and spacing
+- Small Indian businesses (doctors, lawyers, CA firms)
+- Local service providers
+- Early-stage startups
+- Professionals needing online presence
 
-## 🛠️ Setup Instructions
+## 📋 Sections
 
-### 1. Install Dependencies
+1. **Hero** - Bold headline with primary CTA
+2. **What You Get** - Service package details
+3. **Who It's For** - Target audience breakdown
+4. **How It Works** - 4-step process
+5. **Pricing** - Clear pricing structure
+6. **Portfolio** - Sample work showcase
+7. **FAQ** - Common questions answered
+8. **Final CTA** - Conversion-focused closing
+
+## 🛠️ Tech Stack
+
+- **HTML5** - Semantic markup
+- **Tailwind CSS** - Utility-first styling (via CDN)
+- **Google Fonts** - Space Grotesk typography
+- **Material Symbols** - Icon system
+
+## 🚀 Quick Start
+
+### View Locally
+
+Simply open the `index.html` file in any modern web browser:
 
 ```bash
-npm install
+# Windows
+start index.html
+
+# Mac
+open index.html
+
+# Linux
+xdg-open index.html
 ```
 
-### 2. Customize Your Information
+### Deploy to Vercel
 
-Update the following in the components:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
 
-**Hero.tsx, WhatsAppButton.tsx, AddOns.tsx, FAQ.tsx:**
-```typescript
-const whatsappNumber = "919876543210" // Your WhatsApp number
-const calendlyLink = "https://calendly.com/avnishsinha/15min" // Your Calendly link
-```
-
-**FinalCTA.tsx:**
-```typescript
-// Update email and social links
-```
-
-**tailwind.config.ts:**
-```typescript
-// Change accent color if desired
-accent: '#00ff88'
-```
-
-### 3. Run Development Server
+Or via CLI:
 
 ```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see your site.
-
-### 4. Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## 🚀 Deploy to Vercel
-
-### Option 1: Vercel CLI (Recommended)
-
-```bash
-# Install Vercel CLI
 npm i -g vercel
-
-# Deploy
 vercel
 ```
 
-### Option 2: GitHub + Vercel Dashboard
+### Deploy to Netlify
 
-1. Push code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Import your repository
-4. Deploy automatically
-
-## 📝 Content Customization
-
-All copy is directly in the components for easy editing:
-
-- **Hero**: Main headline and value proposition
-- **WhatYouGet**: Package features list
-- **WhoItsFor**: Target audience examples
-- **HowItWorks**: Process steps
-- **AddOns**: Optional services and pricing
-- **SampleWork**: Portfolio examples
-- **FAQ**: Common questions and answers
-
-## 🎯 Key Features
-
-✅ Entry gate with "ENTER" button (stored in sessionStorage)  
-✅ Mobile-first responsive design  
-✅ Sticky WhatsApp button (appears on scroll)  
-✅ Multiple CTAs throughout the page  
-✅ SEO metadata configured  
-✅ Smooth animations and transitions  
-✅ Collapsible FAQ section  
-✅ Clean, production-ready code  
-
-## 📱 Components Overview
-
-### EntryGate
-- Full-screen entry animation
-- "AVNISH SINHA" branding
-- Enter button with hover effects
-- Session storage to remember entry
-
-### Hero
-- Large headline with subheadline
-- Starting price display
-- Dual CTAs (WhatsApp + Calendly)
-- Background gradient effects
-
-### WhatYouGet
-- 8 key features in grid layout
-- Hover effects on cards
-- Checkmark icons
-
-### WhoItsFor
-- 6 target audience cards
-- "Not for you if" section
-- Industry-specific examples
-
-### HowItWorks
-- 4-step process
-- Timeline visualization
-- Duration for each step
-
-### AddOns
-- 6 optional services
-- Pricing displayed
-- Custom work CTA
-
-### SampleWork
-- Portfolio grid (6 samples)
-- Placeholder cards with hover
-- Industry categories
-
-### FAQ
-- 10 common questions
-- Collapsible accordion
-- Extra CTA at bottom
-
-### FinalCTA
-- Compelling final pitch
-- Dual CTAs repeated
-- Footer with links
-
-### WhatsAppButton
-- Sticky on scroll (300px threshold)
-- Different styles for mobile/desktop
-- WhatsApp green color (#25D366)
-
-## 🔧 Customization Tips
-
-### Change Accent Color
-Edit `tailwind.config.ts`:
-```typescript
-accent: '#YOUR_COLOR'
+```bash
+npm i -g netlify-cli
+netlify deploy --dir .
 ```
 
-### Add Google Analytics
-Add to `app/layout.tsx`:
-```tsx
-<Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+## 🎨 Customization
+
+### Change Brand Color
+
+Edit the Tailwind config in `index.html`:
+
+```javascript
+colors: {
+    "primary": "#f90606",  // Change this to your brand color
+}
 ```
 
-### Modify Entry Gate
-Edit `components/EntryGate.tsx` to change animation or remove sessionStorage
+### Update Contact Information
 
-### Update Pricing
-Search for "₹8,000" and "₹20,000" to update pricing across components
+Search and replace placeholder contact details:
+- Phone numbers
+- Email addresses
+- WhatsApp links
+- Social media URLs
+
+### Modify Content
+
+All content is inline within `index.html` - simply edit the text within the HTML tags.
+
+## 📱 Responsive Design
+
+- **Mobile-first** approach
+- Breakpoints optimized for Indian market
+- Touch-friendly interactive elements
+
+## 🔍 SEO
+
+- Semantic HTML structure
+- Meta tags configured
+- Accessible markup
+- Fast load times
 
 ## 📊 Performance
 
-- **Lighthouse Score**: 95+ (with optimizations)
-- **Mobile-first**: Optimized for Indian market (primarily mobile users)
-- **Fast loading**: Minimal dependencies, optimized images
+- **No build step required** - Pure HTML
+- **CDN resources** - Fast global delivery
+- **Minimal dependencies** - Only Tailwind CSS and Google Fonts
+- **Lightweight** - Optimized for Indian internet speeds
 
-## 🐛 Troubleshooting
+## 🌐 Browser Support
 
-**Entry gate shows every time:**
-- Remove sessionStorage check in `EntryGate.tsx`
-
-**WhatsApp button not showing:**
-- Check scroll threshold (300px)
-- Verify WhatsApp number format
-
-**Build errors:**
-- Run `npm install` again
-- Check Node.js version (v18+)
-- Clear `.next` folder and rebuild
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers
 
 ## 📄 License
 
-MIT License - feel free to use for your own projects
+This project is available for personal and commercial use.
 
 ## 🤝 Support
 
-For questions or support, reach out on WhatsApp or email.
+For questions or support, reach out via the contact methods provided on the website.
 
 ---
 
-Built with ❤️ by Avnish Sinha
+**Built for Indian entrepreneurs and small businesses** 🇮🇳
+
+Ready to launch your online presence in 7 days!
