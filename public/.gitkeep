@@ -1,0 +1,9 @@
+# Static Assets
+
+Place your static files here:
+- favicon.ico
+- og-image.png
+- robots.txt (if you want to override the generated one)
+- Any images for projects
+
+These files will be served from the root of your domain.
