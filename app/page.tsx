@@ -21,13 +21,11 @@ export default function HomePage() {
           
           <div className="flex flex-col md:flex-row gap-6 w-full max-w-xl">
             <a 
-              href="https://wa.me/15204910441" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+              href="mailto:avnishkumarsinha69@gmail.com" 
               className="flex-1 bg-white text-black py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
             >
-              <span className="material-symbols-outlined">chat</span>
-              WhatsApp Me
+              <span className="material-symbols-outlined">mail</span>
+              Email Me
             </a>
             <a 
               href="https://calendly.com/avnishkumarsinha69/30min" 
@@ -57,8 +55,8 @@ export default function HomePage() {
               
               <div className="p-10 border-b-2 lg:border-b-0 lg:border-r-2 border-black dark:border-white hover:bg-primary group transition-colors">
                 <span className="material-symbols-outlined text-4xl mb-6 group-hover:text-white">forum</span>
-                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">WhatsApp integration</h3>
-                <p className="text-gray-500 group-hover:text-white/80">Direct customer connection built-in. Convert visitors into chats.</p>
+                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Direct Contact</h3>
+                <p className="text-gray-500 group-hover:text-white/80">Multiple ways to reach out. Email, Calendly, LinkedIn. Your choice.</p>
               </div>
               
               <div className="p-10 border-b-2 md:border-b-0 md:border-r-2 border-black dark:border-white hover:bg-primary group transition-colors">

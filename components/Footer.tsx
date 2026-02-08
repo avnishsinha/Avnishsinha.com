@@ -18,8 +18,8 @@ export default function Footer() {
             <h5 className="font-800 uppercase tracking-widest text-sm mb-6 text-primary">Contact</h5>
             <ul className="space-y-4 font-bold uppercase text-sm">
               <li>
-                <a className="hover:underline" href="https://wa.me/15204910441" target="_blank" rel="noopener noreferrer">
-                  WhatsApp
+                <a className="hover:underline" href="mailto:avnishkumarsinha69@gmail.com">
+                  Email
                 </a>
               </li>
               <li>
@@ -28,8 +28,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="hover:underline" href="mailto:avnishkumarsinha69@gmail.com">
-                  Email
+                <a className="hover:underline" href="https://calendly.com/avnishkumarsinha69/30min" target="_blank" rel="noopener noreferrer">
+                  Calendly
                 </a>
               </li>
             </ul>

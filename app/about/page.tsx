@@ -110,7 +110,7 @@ export default function AboutPage() {
               <span className="material-symbols-outlined text-4xl mb-4 group-hover:text-white">chat</span>
               <h3 className="text-2xl font-800 uppercase mb-3 group-hover:text-white">Integrations</h3>
               <ul className="space-y-2 text-gray-400 group-hover:text-white/80">
-                <li className="font-bold">WhatsApp</li>
+                <li className="font-bold">Contact Forms</li>
                 <li className="font-bold">Calendly</li>
                 <li className="font-bold">Analytics</li>
               </ul>
@@ -169,20 +169,20 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/15204910441"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-black px-10 py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
-            >
-              <span className="material-symbols-outlined">chat</span>
-              WhatsApp Me
-            </a>
-            <a
               href="mailto:avnishkumarsinha69@gmail.com"
-              className="bg-transparent text-white px-10 py-6 text-xl font-800 uppercase tracking-tighter border-2 border-white hover:bg-white hover:text-black transition-all flex items-center justify-center gap-2"
+              className="bg-white text-black px-10 py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined">mail</span>
               Email Me
+            </a>
+            <a
+              href="https://calendly.com/avnishkumarsinha69/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent text-white px-10 py-6 text-xl font-800 uppercase tracking-tighter border-2 border-white hover:bg-white hover:text-black transition-all flex items-center justify-center gap-2"
+            >
+              <span className="material-symbols-outlined">calendar_today</span>
+              Book a Call
             </a>
           </div>
         </div>
