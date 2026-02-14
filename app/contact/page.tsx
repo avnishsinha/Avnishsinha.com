@@ -13,23 +13,28 @@ export default function ContactPage() {
     setSubmitMessage('')
 
     const formData = new FormData(e.currentTarget)
-    const data = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      project: formData.get('project'),
-      timeline: formData.get('timeline'),
-      message: formData.get('message'),
-    }
 
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      const response = await fetch('https://formspree.io/f/6688a248-cf43-4276-ab7e-e8603436647f', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+
+      if (response.ok) {
+        setIsSubmitting(false)
+        setSubmitMessage('Thanks! I\'ll get back to you within 24 hours.')
+        ;(e.target as HTMLFormElement).reset()
+      } else {
+        setIsSubmitting(false)
+        setSubmitMessage('Oops! Something went wrong. Please try emailing me directly.')
+      }
+    } catch (error) {
       setIsSubmitting(false)
-      setSubmitMessage('Thanks! I\'ll get back to you within 24 hours.')
-      ;(e.target as HTMLFormElement).reset()
-    }, 1000)
-
-    // In production, send to your form handler
-    console.log('Form data:', data)
+      setSubmitMessage('Oops! Something went wrong. Please try emailing me directly.')
+    }
   }
 
   return (
@@ -67,7 +72,7 @@ export default function ContactPage() {
             </a>
 
             <a
-              href="mailto:aks526@nau.edu"
+              href="mailto:avnishkumarsinha69@gmail.com"
               className="border-2 border-white p-10 hover:bg-primary group transition-all text-center"
             >
               <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">mail</span>

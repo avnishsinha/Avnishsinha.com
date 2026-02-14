@@ -175,7 +175,7 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="mailto:aks526@nau.edu"
+              href="mailto:avnishkumarsinha69@gmail.com"
               className="bg-white text-black px-10 py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined">mail</span>
