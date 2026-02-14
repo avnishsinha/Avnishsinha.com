@@ -52,7 +52,7 @@ export default function ContactPage() {
       {/* Quick Contact Methods */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <a
               href="https://calendly.com/avnishkumarsinha69/30min"
               target="_blank"
@@ -67,13 +67,26 @@ export default function ContactPage() {
             </a>
 
             <a
-              href="mailto:avnishkumarsinha69@gmail.com"
+              href="mailto:aks526@nau.edu"
               className="border-2 border-white p-10 hover:bg-primary group transition-all text-center"
             >
               <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">mail</span>
               <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">Email</h3>
               <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
                 Direct Contact
+              </p>
+            </a>
+
+            <a
+              href="https://github.com/avnishsinha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-white p-10 hover:bg-primary group transition-all text-center"
+            >
+              <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">code</span>
+              <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">GitHub</h3>
+              <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
+                View Code
               </p>
             </a>
 

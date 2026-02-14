@@ -5,7 +5,7 @@ import { projects } from '@/data/projects'
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Recent web development projects. E-commerce, professional sites, SaaS landing pages built in 7 days or less.',
+  description: 'Showcase of software engineering projects. Web systems, applications, and digital solutions built with precision and scale.',
 }
 
 export default function ProjectsPage() {
@@ -23,6 +23,21 @@ export default function ProjectsPage() {
             <p className="text-xl md:text-2xl text-gray-400 font-medium max-w-3xl mx-auto">
               Real projects. Real results. All delivered in 7 days or less.
             </p>
+            <div className="mt-8 inline-flex items-center gap-3 text-sm font-bold uppercase tracking-widest text-gray-500 border border-gray-700 px-6 py-3">
+              <span className="material-symbols-outlined text-base">lock</span>
+              Certain engagements remain confidential under NDA
+            </div>
+            <div className="mt-6">
+              <a 
+                href="https://github.com/avnishsinha" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-primary hover:underline font-bold uppercase text-sm tracking-widest"
+              >
+                <span className="material-symbols-outlined text-base">code</span>
+                View GitHub Profile
+              </a>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

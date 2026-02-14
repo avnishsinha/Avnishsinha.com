@@ -110,7 +110,7 @@ export default function LegalPage() {
                 If anything is unclear, just ask. I prefer straight talk over legal jargon.
               </p>
               <a
-                href="mailto:avnishkumarsinha69@gmail.com"
+                href="mailto:aks526@nau.edu"
                 className="inline-block bg-primary text-white px-8 py-4 font-bold uppercase tracking-tighter hover:bg-white hover:text-primary border-2 border-primary transition-all"
               >
                 Email Me

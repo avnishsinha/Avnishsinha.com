@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Solo developer specializing in rapid web development. Building high-performance websites in 7 days.',
+  description: 'Independent Software Engineer specializing in scalable digital infrastructure and premium software engineering solutions.',
 }
 
 export default function AboutPage() {
@@ -43,6 +43,12 @@ export default function AboutPage() {
               <p className="text-xl md:text-2xl font-medium leading-relaxed text-gray-300">
                 If you need a website this week, not next quarter, let&apos;s talk.
               </p>
+              <div className="mt-8 pt-8 border-t border-gray-700">
+                <p className="text-sm font-bold uppercase tracking-widest text-gray-500 flex items-center gap-2">
+                  <span className="material-symbols-outlined text-base">lock</span>
+                  Certain engagements remain confidential under NDA
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -169,11 +175,20 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="mailto:avnishkumarsinha69@gmail.com"
+              href="mailto:aks526@nau.edu"
               className="bg-white text-black px-10 py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined">mail</span>
               Email Me
+            </a>
+            <a
+              href="https://github.com/avnishsinha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent text-white px-10 py-6 text-xl font-800 uppercase tracking-tighter border-2 border-white hover:bg-white hover:text-black transition-all flex items-center justify-center gap-2"
+            >
+              <span className="material-symbols-outlined">code</span>
+              View GitHub
             </a>
             <a
               href="https://calendly.com/avnishkumarsinha69/30min"

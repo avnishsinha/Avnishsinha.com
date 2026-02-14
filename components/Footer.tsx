@@ -18,13 +18,18 @@ export default function Footer() {
             <h5 className="font-800 uppercase tracking-widest text-sm mb-6 text-primary">Contact</h5>
             <ul className="space-y-4 font-bold uppercase text-sm">
               <li>
-                <a className="hover:underline" href="mailto:avnishkumarsinha69@gmail.com">
+                <a className="hover:underline" href="mailto:aks526@nau.edu">
                   Email
                 </a>
               </li>
               <li>
                 <a className="hover:underline" href="https://www.linkedin.com/in/avnishkumarsinha/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
+                </a>
+              </li>
+              <li>
+                <a className="hover:underline" href="https://github.com/avnishsinha" target="_blank" rel="noopener noreferrer">
+                  GitHub
                 </a>
               </li>
               <li>

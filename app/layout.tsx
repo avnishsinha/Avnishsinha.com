@@ -14,25 +14,25 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://avnishsinha.com'),
   title: {
-    default: 'Avnish Sinha - Website in 7 Days | Rapid Solo Development',
+    default: 'Avnishsinha.com',
     template: '%s | Avnish Sinha',
   },
-  description: 'I build high-performance websites in 7 days. No excuses. Professional solo development for serious businesses.',
-  keywords: ['web development', 'rapid development', 'solo developer', 'freelance developer', 'website in 7 days'],
+  description: 'Independent Software Engineer designing and building scalable digital infrastructure. Premium software engineering solutions for modern businesses.',
+  keywords: ['software engineer', 'web development', 'application development', 'digital strategy', 'scalable systems', 'independent developer'],
   authors: [{ name: 'Avnish Sinha' }],
   creator: 'Avnish Sinha',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://avnishsinha.com',
-    title: 'Avnish Sinha - Website in 7 Days',
-    description: 'I build high-performance websites in 7 days. No excuses.',
+    title: 'Avnishsinha.com - Independent Software Engineer',
+    description: 'Designing and building scalable digital infrastructure.',
     siteName: 'Avnish Sinha',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Avnish Sinha - Website in 7 Days',
-    description: 'I build high-performance websites in 7 days. No excuses.',
+    title: 'Avnishsinha.com - Independent Software Engineer',
+    description: 'Designing and building scalable digital infrastructure.',
   },
   robots: {
     index: true,

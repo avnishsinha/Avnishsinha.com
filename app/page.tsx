@@ -21,7 +21,7 @@ export default function HomePage() {
           
           <div className="flex flex-col md:flex-row gap-6 w-full max-w-xl">
             <a 
-              href="mailto:avnishkumarsinha69@gmail.com" 
+              href="mailto:aks526@nau.edu" 
               className="flex-1 bg-white text-black py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
             >
               <span className="material-symbols-outlined">mail</span>
