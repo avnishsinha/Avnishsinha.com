@@ -52,7 +52,7 @@ export default function ContactPage() {
       {/* Quick Contact Methods */}
       <section className="px-6 py-12">
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <a
               href="https://calendly.com/avnishkumarsinha69/30min"
               target="_blank"
@@ -74,6 +74,19 @@ export default function ContactPage() {
               <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">Email</h3>
               <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
                 Direct Contact
+              </p>
+            </a>
+
+            <a
+              href="https://www.instagram.com/avnish_7742/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-white p-10 hover:bg-primary group transition-all text-center"
+            >
+              <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">photo_camera</span>
+              <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">Instagram</h3>
+              <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
+                DM Me
               </p>
             </a>
           </div>
@@ -196,7 +209,7 @@ export default function ContactPage() {
             <p className="text-xl text-gray-400 font-medium mb-8">
               I check messages every 4-6 hours during business days. You&apos;ll hear from me within 24 hours max.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
               <div>
                 <p className="text-sm font-800 uppercase tracking-widest text-primary mb-2">Calendly</p>
                 <p className="font-bold">Instant booking</p>
@@ -204,6 +217,10 @@ export default function ContactPage() {
               <div>
                 <p className="text-sm font-800 uppercase tracking-widest text-primary mb-2">Email</p>
                 <p className="font-bold">~24 hours</p>
+              </div>
+              <div>
+                <p className="text-sm font-800 uppercase tracking-widest text-primary mb-2">Instagram</p>
+                <p className="font-bold">~12 hours</p>
               </div>
             </div>
           </div>

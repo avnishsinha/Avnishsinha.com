@@ -8,15 +8,15 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="min-h-[80vh] flex flex-col justify-center items-center px-6 py-20 text-center">
           <div className="inline-block bg-primary text-white px-4 py-1 mb-8 font-bold uppercase tracking-widest text-sm">
-            Rapid Solo Development
+            Independent Software Engineer
           </div>
           
           <h1 className="text-6xl md:text-9xl font-800 leading-[0.9] tracking-tighter uppercase max-w-5xl mb-12">
-            I build your website in <span className="text-primary italic">7 days.</span> No excuses.
+            Designing and building <span className="text-primary italic">scalable</span> digital infrastructure.
           </h1>
           
           <p className="text-xl md:text-2xl font-medium max-w-2xl mb-12 text-gray-400">
-            High-speed solo development. No bloated agencies. No-BS approach for serious businesses who need results yesterday.
+            Premium software engineering solutions. Architecting digital systems that drive measurable business outcomes.
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 w-full max-w-xl">
@@ -39,36 +39,36 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* What You Get Section */}
+        {/* Services Section */}
         <section className="px-6 py-24 border-y-2 border-white bg-white dark:bg-black">
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
-              <h2 className="text-5xl md:text-7xl font-800 uppercase tracking-tighter">What You Get</h2>
-              <p className="text-xl text-primary font-bold uppercase tracking-widest">No-BS Deliverables</p>
+              <h2 className="text-5xl md:text-7xl font-800 uppercase tracking-tighter">Core Services</h2>
+              <p className="text-xl text-primary font-bold uppercase tracking-widest">Enterprise-Grade Solutions</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border-2 border-black dark:border-white">
               <div className="p-10 border-b-2 md:border-b-0 md:border-r-2 border-black dark:border-white hover:bg-primary group transition-colors">
-                <span className="material-symbols-outlined text-4xl mb-6 group-hover:text-white">smartphone</span>
-                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Mobile-first</h3>
-                <p className="text-gray-500 group-hover:text-white/80">Pixel-perfect optimization for every screen size from day one.</p>
+                <div className="text-4xl mb-6 font-800 group-hover:text-white">01</div>
+                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Web Development</h3>
+                <p className="text-gray-500 group-hover:text-white/80">High-performance web systems built for clarity, speed, and scale.</p>
               </div>
               
               <div className="p-10 border-b-2 lg:border-b-0 lg:border-r-2 border-black dark:border-white hover:bg-primary group transition-colors">
-                <span className="material-symbols-outlined text-4xl mb-6 group-hover:text-white">forum</span>
-                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Direct Contact</h3>
-                <p className="text-gray-500 group-hover:text-white/80">Multiple ways to reach out. Email, Calendly, LinkedIn. Your choice.</p>
+                <div className="text-4xl mb-6 font-800 group-hover:text-white">02</div>
+                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Application Development</h3>
+                <p className="text-gray-500 group-hover:text-white/80">Robust mobile and desktop applications engineered for long-term reliability.</p>
               </div>
               
               <div className="p-10 border-b-2 md:border-b-0 md:border-r-2 border-black dark:border-white hover:bg-primary group transition-colors">
-                <span className="material-symbols-outlined text-4xl mb-6 group-hover:text-white">search</span>
-                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">SEO-ready</h3>
-                <p className="text-gray-500 group-hover:text-white/80">Foundational structures to rank higher on Google from launch.</p>
+                <div className="text-4xl mb-6 font-800 group-hover:text-white">03</div>
+                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Digital Strategy</h3>
+                <p className="text-gray-500 group-hover:text-white/80">Data-driven digital positioning and performance optimization.</p>
               </div>
               
               <div className="p-10 hover:bg-primary group transition-colors">
-                <span className="material-symbols-outlined text-4xl mb-6 group-hover:text-white">bolt</span>
-                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Lightning Fast</h3>
-                <p className="text-gray-500 group-hover:text-white/80">Optimized code for high performance and low bounce rates.</p>
+                <div className="text-4xl mb-6 font-800 group-hover:text-white">04</div>
+                <h3 className="text-2xl font-800 uppercase mb-4 group-hover:text-white">Software Engineering</h3>
+                <p className="text-gray-500 group-hover:text-white/80">Custom backend architectures and scalable system design.</p>
               </div>
             </div>
           </div>
@@ -177,11 +177,11 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-6xl font-800 uppercase tracking-tighter mb-8">One Price. No Upsells.</h2>
             
             <div className="bg-white dark:bg-white text-black py-16 px-10 border-4 border-primary mb-12 shadow-[20px_20px_0px_0px_rgba(249,6,6,1)]">
-              <p className="text-xl font-bold uppercase tracking-widest mb-4">Investment Range</p>
-              <div className="text-6xl md:text-8xl font-900 tracking-tighter mb-6">
-                ₹8k – ₹20k
+              <p className="text-xl font-bold uppercase tracking-widest mb-4">Pricing</p>
+              <div className="text-5xl md:text-7xl font-900 tracking-tighter mb-6">
+                Contact for Quote
               </div>
-              <p className="text-lg font-medium opacity-70 mb-10">Depends on complexity. Zero hidden fees.</p>
+              <p className="text-lg font-medium opacity-70 mb-10">Custom pricing based on your needs. Zero hidden fees.</p>
               <a 
                 href="https://calendly.com/avnishkumarsinha69/30min" 
                 target="_blank" 

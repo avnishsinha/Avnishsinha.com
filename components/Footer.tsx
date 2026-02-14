@@ -28,6 +28,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a className="hover:underline" href="https://www.instagram.com/avnish_7742/" target="_blank" rel="noopener noreferrer">
+                  Instagram
+                </a>
+              </li>
+              <li>
                 <a className="hover:underline" href="https://calendly.com/avnishkumarsinha69/30min" target="_blank" rel="noopener noreferrer">
                   Calendly
                 </a>
