@@ -13,17 +13,17 @@ export default function ContactPage() {
     setSubmitMessage('')
 
     const formData = new FormData(e.currentTarget)
+    formData.append('access_key', '6088a248-cf43-4276-ab7e-e06034366a7f')
 
     try {
-      const response = await fetch('https://formspree.io/f/6088a248-cf43-4276-ab7e-e8603436647f', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
+        body: formData
       })
 
-      if (response.ok) {
+      const data = await response.json()
+
+      if (data.success) {
         setIsSubmitting(false)
         setSubmitMessage('Thanks! I\'ll get back to you within 24 hours.')
         ;(e.target as HTMLFormElement).reset()
