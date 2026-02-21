@@ -1,6 +1,21 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Footer() {
+  const [emailCopied, setEmailCopied] = useState(false)
+
+  const handleEmailClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    try {
+      await navigator.clipboard.writeText('avnishkumarsinha69@gmail.com')
+      setEmailCopied(true)
+      setTimeout(() => setEmailCopied(false), 2000)
+    } catch (err) {
+      window.location.href = 'mailto:avnishkumarsinha69@gmail.com'
+    }
+  }
   const currentYear = new Date().getFullYear()
 
   return (
@@ -18,8 +33,13 @@ export default function Footer() {
             <h5 className="font-800 uppercase tracking-widest text-sm mb-6 text-primary">Contact</h5>
             <ul className="space-y-4 font-bold uppercase text-sm">
               <li>
-                <a className="hover:underline" href="mailto:avnishkumarsinha69@gmail.com">
-                  Email
+                <a 
+                  className="hover:underline cursor-pointer" 
+                  href="mailto:avnishkumarsinha69@gmail.com"
+                  onClick={handleEmailClick}
+                  title={emailCopied ? 'Email copied!' : 'Click to copy email'}
+                >
+                  {emailCopied ? 'Email Copied!' : 'Email'}
                 </a>
               </li>
               <li>

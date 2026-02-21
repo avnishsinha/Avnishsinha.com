@@ -1,4 +1,5 @@
 import GateEntry from '@/components/GateEntry'
+import EmailLink from '@/components/EmailLink'
 
 export default function HomePage() {
   return (
@@ -20,13 +21,12 @@ export default function HomePage() {
           </p>
           
           <div className="flex flex-col md:flex-row gap-6 w-full max-w-xl">
-            <a 
-              href="mailto:avnishkumarsinha69@gmail.com" 
+            <EmailLink 
               className="flex-1 bg-white text-black py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
-            >
-              <span className="material-symbols-outlined">mail</span>
-              Email Me
-            </a>
+              copiedClassName="flex-1 bg-primary text-white py-6 text-xl font-800 uppercase tracking-tighter border-2 border-primary transition-all flex items-center justify-center gap-2"
+              normalText="Email Me"
+              copiedText="Email Copied!"
+            />
             <a 
               href="https://calendly.com/avnishkumarsinha69/30min" 
               target="_blank" 

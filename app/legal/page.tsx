@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import EmailLink from '@/components/EmailLink'
 
 export const metadata: Metadata = {
   title: 'Legal & Terms',
@@ -109,12 +110,13 @@ export default function LegalPage() {
               <p className="text-lg text-gray-300 mb-6">
                 If anything is unclear, just ask. I prefer straight talk over legal jargon.
               </p>
-              <a
-                href="mailto:avnishkumarsinha69@gmail.com"
+              <EmailLink
                 className="inline-block bg-primary text-white px-8 py-4 font-bold uppercase tracking-tighter hover:bg-white hover:text-primary border-2 border-primary transition-all"
-              >
-                Email Me
-              </a>
+                copiedClassName="inline-block bg-white text-primary px-8 py-4 font-bold uppercase tracking-tighter border-2 border-primary transition-all"
+                normalText="Email Me"
+                copiedText="✓ Email Copied!"
+                showIcon={false}
+              />
             </div>
           </div>
         </div>

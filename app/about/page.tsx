@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import EmailLink from '@/components/EmailLink'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -174,13 +175,12 @@ export default function AboutPage() {
             If you&apos;re serious about getting online fast, let&apos;s talk.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
-            <a
-              href="mailto:avnishkumarsinha69@gmail.com"
+            <EmailLink
               className="bg-white text-black px-10 py-6 text-xl font-800 uppercase tracking-tighter hover:bg-primary hover:text-white border-2 border-white hover:border-primary transition-all flex items-center justify-center gap-2"
-            >
-              <span className="material-symbols-outlined">mail</span>
-              Email Me
-            </a>
+              copiedClassName="bg-primary text-white px-10 py-6 text-xl font-800 uppercase tracking-tighter border-2 border-primary transition-all flex items-center justify-center gap-2"
+              normalText="Email Me"
+              copiedText="Email Copied!"
+            />
             <a
               href="https://github.com/avnishsinha"
               target="_blank"

@@ -6,6 +6,19 @@ import { useState } from 'react'
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitMessage, setSubmitMessage] = useState('')
+  const [emailCopied, setEmailCopied] = useState(false)
+
+  const handleEmailClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    try {
+      await navigator.clipboard.writeText('avnishkumarsinha69@gmail.com')
+      setEmailCopied(true)
+      setTimeout(() => setEmailCopied(false), 3000)
+    } catch (err) {
+      // Fallback: open mailto link
+      window.location.href = 'mailto:avnishkumarsinha69@gmail.com'
+    }
+  }
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -73,12 +86,13 @@ export default function ContactPage() {
 
             <a
               href="mailto:avnishkumarsinha69@gmail.com"
-              className="border-2 border-white p-10 hover:bg-primary group transition-all text-center"
+              onClick={handleEmailClick}
+              className="border-2 border-white p-10 hover:bg-primary group transition-all text-center cursor-pointer relative"
             >
               <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">mail</span>
               <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">Email</h3>
               <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
-                Direct Contact
+                {emailCopied ? 'Email Copied!' : 'Direct Contact'}
               </p>
             </a>
 
@@ -91,7 +105,7 @@ export default function ContactPage() {
               <span className="material-symbols-outlined text-5xl mb-4 group-hover:text-white block">code</span>
               <h3 className="text-2xl font-800 uppercase mb-2 group-hover:text-white">GitHub</h3>
               <p className="text-gray-400 group-hover:text-white/80 text-sm font-bold uppercase tracking-wider">
-                View Code
+                View Profile
               </p>
             </a>
 
