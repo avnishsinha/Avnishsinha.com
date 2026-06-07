@@ -53,7 +53,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="hover:underline" href="https://www.instagram.com/avnish_7742/" target="_blank" rel="noopener noreferrer">
+                <a className="hover:underline" href="https://www.instagram.com/avnish.frames/" target="_blank" rel="noopener noreferrer">
                   Instagram
                 </a>
               </li>

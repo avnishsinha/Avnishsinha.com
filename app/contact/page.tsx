@@ -110,7 +110,7 @@ export default function ContactPage() {
             </a>
 
             <a
-              href="https://www.instagram.com/avnish_7742/"
+              href="https://www.instagram.com/avnish.frames/"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white p-6 sm:p-8 md:p-10 hover:bg-primary group transition-all text-center"
